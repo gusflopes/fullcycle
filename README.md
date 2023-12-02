@@ -33,3 +33,6 @@ Para incluir um novo nome, basta usar o query param:
 
 http://localhost:8080?name=Gustavo%20Lopes
 
+**Adendo**
+Incluído Health check para aguardar os containers.
+Nas versões mais recentes do Docker-compose é possível escrever health checks personalizados como foi feito neste exemplo.
